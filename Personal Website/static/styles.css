@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Inter:wght@200&display=swap');
+
+
+
+
+
+body {
+    font-family:'Inter';
+    background-color:#e9eaec;
+}
+p {
+    font-family:'Inter';
+}
+p a {
+    text-decoration:none;
+    color:#f4d152;
+}
+
+span {
+    margin:4em;
+}
+.skill {
+    border: 1px solid#f4d152;
+    border-radius:1em;
+    font-size:1.4vw;
+    margin-left:1.5em;
+    margin-right:1.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    font-weight:800;
+    padding:1em;
+    display:inline-block;
+}
+
+.resume-header {
+    font-size:3vw;
+    font-weight:600;
+    letter-spacing:0.2em;
+    text-align:center;
+    margin-left:3em;
+    margin-right:3em;
+    margin-top:2em;
+    border-bottom: 1px solid;
+    clear:both;
+}
+
+.resume-title {
+    float:left;
+    margin-left:2em;
+    margin-right:2em;
+}
+
+.resume-years {
+    float:right;
+    margin-left:2em;
+    margin-right:2em;
+}
+.resume-description {
+    margin-left:4em;
+    margin-right:4em;
+    clear:both;
+}
+
+.resume-description b {
+    color:#95adc4;
+}
+
+h1 {
+    font-size: 7vw;
+    letter-spacing: 0.2em;
+    text-align:center;
+    color:#32354e;
+}
+ul {
+    font-family:'Inter';
+}
+
+li {
+    margin-left:6em;
+}
+.courses {
+    color:#000000;
+    float:left;
+}
+nav {
+    margin-top: 1em;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+    text-align:center;
+    font-size:2vw;
+    letter-spacing:0.1em;
+    background-color:#5e646a;
+    color:#ffffff;
+    text-decoration:none;
+}
+nav li {
+    list-style:none;
+    display: inline-block;
+    margin:0;
+    color:#ffffff;
+    text-decoration:none;
+}
+
+nav a {
+    margin-right: 6em;
+    text-decoration:none;
+}
+.active {
+    background-color:#f4d152;
+}
+nav a:visited {
+    margin-right: 6em;
+    color:#ffffff;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color:#95adc4;
+    text-decoration:none;
+}
+
+
+
+.title {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.top-bar {
+    background-color: #babdc2;
+    width:68%;
+    height:1.5vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    padding-left:1.5em;
+    padding-right:1.5em;
+    font-size:2vw;
+}
+
+.about-me {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    padding-top:50%;
+    padding-left:50%;
+    padding-right:50%;
+    background-color:#33363b;
+    font-family:'Inconsolata';
+    font-size: 1.6vw;
+    padding:1.25em;
+    color:#ffffff;
+    
+}
+
+pre {
+    padding: 1em;
+    line-height: 150%;
+}
+
+pre a {
+    color:#c8eefd;
+    text-decoration: none;
+}
+pre a:visited {
+    color:#c8eefd;
+    text-decoration:none;
+}
+
+div.image-card {
+    width:60%;
+    background-color:#ffffff;
+    margin-bottom:10em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.container {
+    padding: 2em 3em;
+    text-align:left;
+}
+div.container b {
+    font-weight:1000;
+}
