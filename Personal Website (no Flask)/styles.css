@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family:'Montserrat';
+    background-color:#f2f3f5;
+}
+p {
+    font-family:'Montserrat';
+}
+
+
+
+span {
+    margin:4em;
+}
+.skill {
+    border: 1px solid#8dd4b3;
+    border-radius:1em;
+    font-size:0.8vw;
+    margin-left:1.5em;
+    margin-right:1.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    font-weight:800;
+    padding:1em;
+    display:inline-block;
+}
+
+.resume {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.resume-header {
+    font-size:1.5vw;
+    font-weight:600;
+    letter-spacing:0.2em;
+    text-align:center;
+    margin-left:3em;
+    margin-right:3em;
+    margin-top:2em;
+    border-bottom: 1px solid;
+    clear:both;
+}
+
+.resume-header a {
+    text-decoration:none;
+    color:#8dd4b3;
+}
+
+.resume-title {
+    float:left;
+    margin-left:2em;
+    margin-right:2em;
+    font-size:1vw;
+}
+
+.resume-years {
+    float:right;
+    margin-left:2em;
+    margin-right:2em;
+    font-size:1vw;
+}
+.resume-description {
+    margin-left:4em;
+    margin-right:4em;
+    clear:both;
+    font-size:1vw;
+}
+
+.resume-description b {
+    color:#6659a0;
+    font-size:1vw;
+}
+
+.resume-description li {
+    font-size:1vw;
+}
+title {
+    
+}
+h1 {
+    font-size: 3vw;
+    letter-spacing: 0.2em;
+    text-align:left;
+    color:#232d37;
+    float:left;
+}
+ul {
+    font-family:'Montserrat';
+}
+
+li {
+    margin-left:6em;
+}
+.courses {
+    color:#000000;
+    float:left;
+}
+nav {
+    margin-top: 1em;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+    text-align:center;
+    font-size:1.1vw;
+    letter-spacing:0.1em;
+    color:#232d37;
+    text-decoration:none;
+    float:right;
+    clear:right;
+    width:55%;
+}
+nav li {
+    list-style:none;
+    display: inline-block;
+    margin:0;
+    color:#232d37;
+    text-decoration:none;
+
+}
+
+nav a {
+    margin-left: 5.5em;
+    text-decoration:none;
+    color:#232d37;
+    padding:0.6em;
+}
+.active {
+    background-color:#8dd4b3;
+}
+nav a:visited {
+  
+    color:#232d37;
+    text-decoration:none;
+}
+nav a:hover {
+    color:#6659a0;
+    text-decoration:none;
+}
+
+.heading {
+    width:100%;
+}
+
+.title {
+    text-align:left;
+    width:40%;
+    padding-left:0.5em;
+    display:inline-block;
+    float:left;
+    clear:right;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+
+.top-bar {
+    background-color: #babdc2;
+    width:46.5%;
+    height:1.5vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    padding-left:1.5em;
+    padding-right:1.5em;
+    font-size:2vw;
+}
+
+.about-me {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:50%;
+    padding-left:50%;
+    padding-right:50%;
+    background-color:#33363b;
+    font-weight:100;
+    font-family:'Inconsolata';
+    font-size: 1vw;
+    padding:1.25em;
+    color:#ffffff;
+    
+}
+
+pre {
+    padding: 1em;
+    line-height: 150%;
+}
+
+pre a {
+    color:#c8eefd;
+    text-decoration: none;
+}
+pre a:visited {
+    color:#c8eefd;
+    text-decoration:none;
+}
+div.projects {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.image-card {
+    width:44%;
+    background-color:#ffffff;
+    margin-bottom:10em;
+    margin-left:2em;
+    margin-right:2em;
+    float:left;
+    clear:right;
+    display:inline-block;
+    
+}
+
+div.container {
+    padding: 2em 3em;
+    text-align:left;
+    font-size:0.8em;
+    line-height:1.5;
+}
+div.container b {
+    font-weight:1000;
+}
+
+div.resume {
+    font-size:1vw;
+}
